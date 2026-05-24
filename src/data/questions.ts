@@ -23,7 +23,7 @@ export const questions: Question[] = [
     text: "Which mini-project sounds most exciting to you?",
     answers: [
       {
-        text: "Build a robot that follows a line using sensors and real-time control",
+        text: "Program a Raspberry Pi Pico to follow a line using IR sensors — writing C code that runs directly on the hardware with no OS underneath",
         scores: { data: 0, multimedia: 1, systems: 3 },
       },
       {
@@ -165,8 +165,8 @@ export const questions: Question[] = [
         scores: { data: 0, multimedia: 3, systems: 0 },
       },
       {
-        text: "A search engine that finds images by text description",
-        scores: { data: 1, multimedia: 3, systems: 0 },
+        text: "A reinforcement learning agent (trained purely by reward and penalty — no rules given, just play millions of games and improve) that teaches itself to master a strategy game",
+        scores: { data: 3, multimedia: 0, systems: 0 },
       },
     ],
   },
@@ -243,6 +243,24 @@ export const questions: Question[] = [
       {
         text: "My data pipeline processes 1 billion records in under a minute",
         scores: { data: 3, multimedia: 0, systems: 1 },
+      },
+    ],
+  },
+  {
+    id: 13,
+    text: "Which analysis task sounds most interesting to you?",
+    answers: [
+      {
+        text: "Decomposing a giant matrix of user ratings using SVD (a technique that uncovers hidden factors — e.g. 'this person likes dark comedies') to predict what films someone will enjoy",
+        scores: { data: 3, multimedia: 0, systems: 0 },
+      },
+      {
+        text: "Analysing a spectrogram (a visual map of sound over time showing which frequencies were active) to automatically detect what words were spoken",
+        scores: { data: 0, multimedia: 3, systems: 1 },
+      },
+      {
+        text: "Tracing memory allocations and process scheduling across a running OS to find the root cause of a crash or timing violation",
+        scores: { data: 0, multimedia: 0, systems: 3 },
       },
     ],
   },
