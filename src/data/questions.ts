@@ -41,15 +41,15 @@ export const questions: Question[] = [
     text: "Which Year 1 math topic did you enjoy most?",
     answers: [
       {
-        text: "Calculus and signal analysis — Fourier transforms, integrals, frequency domains",
+        text: "Calculus — I enjoyed derivatives, integrals, and working with continuously changing quantities",
         scores: { data: 0, multimedia: 3, systems: 1 },
       },
       {
-        text: "Statistics and probability — distributions, hypothesis testing, inference",
+        text: "Probability & Statistics — distributions, hypothesis testing, and drawing conclusions from data",
         scores: { data: 3, multimedia: 1, systems: 0 },
       },
       {
-        text: "Discrete math and logic — Boolean algebra, circuits, automata",
+        text: "Reasoning & Logic — Boolean algebra, proofs, and abstract discrete structures",
         scores: { data: 0, multimedia: 0, systems: 3 },
       },
     ],
@@ -99,7 +99,7 @@ export const questions: Question[] = [
     text: "Which technology excites you most?",
     answers: [
       {
-        text: "Distributed computing frameworks like Hadoop and Spark",
+        text: "Distributed computing frameworks like Hadoop and Apache Spark (tools that split a huge dataset across hundreds of computers at once)",
         scores: { data: 3, multimedia: 0, systems: 1 },
       },
       {
@@ -107,7 +107,7 @@ export const questions: Question[] = [
         scores: { data: 1, multimedia: 3, systems: 0 },
       },
       {
-        text: "FPGAs and digital circuit design using VHDL",
+        text: "FPGAs (reprogrammable hardware chips) and circuit design using VHDL (a language that describes circuits the way code describes software)",
         scores: { data: 0, multimedia: 0, systems: 3 },
       },
     ],
@@ -117,7 +117,7 @@ export const questions: Question[] = [
     text: "What kind of bug would you actually enjoy hunting down?",
     answers: [
       {
-        text: "A race condition or deadlock in a multi-threaded OS kernel",
+        text: "A race condition or deadlock — when two parts of a program fight over the same resource and it silently freezes or crashes",
         scores: { data: 0, multimedia: 0, systems: 3 },
       },
       {
@@ -135,7 +135,7 @@ export const questions: Question[] = [
     text: "How do you prefer to spend a lab session?",
     answers: [
       {
-        text: "Wiring up a microcontroller or programming a physical robot",
+        text: "Wiring up a microcontroller (a tiny programmable chip) or programming a physical robot",
         scores: { data: 0, multimedia: 0, systems: 3 },
       },
       {
@@ -153,7 +153,7 @@ export const questions: Question[] = [
     text: "You have a week to build something impressive. What do you make?",
     answers: [
       {
-        text: "A real-time operating system that schedules tasks on a microcontroller",
+        text: "A real-time operating system (RTOS — software that keeps tasks running on strict timing schedules) on a microcontroller",
         scores: { data: 0, multimedia: 0, systems: 3 },
       },
       {
@@ -211,7 +211,7 @@ export const questions: Question[] = [
     text: "What is your honest take on Calculus from Year 1?",
     answers: [
       {
-        text: "Loved it — I want even more signal analysis and mathematical depth",
+        text: "Loved it — I enjoy continuous mathematics and want to apply it deeper (think filters, transforms, frequencies)",
         scores: { data: 0, multimedia: 3, systems: 1 },
       },
       {
@@ -233,7 +233,7 @@ export const questions: Question[] = [
         scores: { data: 0, multimedia: 0, systems: 3 },
       },
       {
-        text: "My evolutionary algorithm beats humans at a strategy game",
+        text: "My evolutionary algorithm (an AI method inspired by natural selection — survival of the fittest, but for code) beats humans at a strategy game",
         scores: { data: 3, multimedia: 0, systems: 0 },
       },
       {
