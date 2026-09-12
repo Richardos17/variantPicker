@@ -2,6 +2,9 @@
 
 An unofficial quiz app for TU Delft CSE first-year students to figure out whether **Data**, **Multimedia**, or **Systems** is their best Year 2 variant match.
 
+##Live demo
+Link: https://variant-picker.vercel.app/
+
 ## Run locally
 
 ```bash
